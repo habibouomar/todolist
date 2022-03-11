@@ -1,0 +1,69 @@
+@font-face{
+    font-family: CoalhandLuketrial;
+    src: url("../css/fonts/CoalhandLuke\ TRIAL.ttf");
+}
+body
+{ 
+    background: url(./td4.jpeg) center fixed;
+    background-size: cover;
+    height: 100vh;
+	width: 100vw; 
+	position: relative;
+}
+
+#ft_list
+{
+    border: solid 1px black;
+    padding: 20px;
+    margin: 100px;
+}
+
+h1 
+{
+    font-family:"CoalhandLuketrial";
+    color: #FFB6C1; 
+    text-align: center;
+}
+
+.todolist
+{
+    border: solid 1px white;
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-family: "arial";
+    font-size: 20px;
+    cursor: pointer;
+}
+.todolist:hover 
+{
+       background: #FFB6C1;
+}
+
+input[type="button"]
+{
+    font-family: "digital-7";
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    background: linear-gradient(#FFB6C1, #404040);
+    box-shadow: 0 7px 10px rgba(0,0,0,0.8);
+    border-radius: 12px;
+    cursor: pointer;
+}
+input[type="button"]:hover
+{
+    background: linear-gradient(#00FFFF, #404040);
+}
+
+@media (max-device-width:414px) {
+
+    #ft_list
+    {
+        border: solid 1px black;
+        padding: 10px;
+        margin: 50px;
+    }
+
+}
